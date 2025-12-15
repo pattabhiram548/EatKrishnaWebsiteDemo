@@ -59,7 +59,7 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/why-eatkrishna" element={<WhyEatKrishnaPage />} />
-              <Route path="/millets-food" element={<MilletsFoodPage />} />
+              <Route path="/laddus-menu" element={<MilletsFoodPage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/payment-options" element={<PaymentOptionsPage />} />
               <Route path="/payment-processing" element={<PaymentPlaceholder />} />

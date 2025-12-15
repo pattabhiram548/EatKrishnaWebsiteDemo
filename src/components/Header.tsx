@@ -8,7 +8,7 @@ const Header: React.FC = () => {
 
   const navItems = [
     { name: 'Home', to: '/' },
-    { name: 'Millets Food', to: '/millets-food' },
+    { name: 'Laddus Menu', to: '/laddus-menu' },
     { name: 'Contact', to: '/contact' },
     { name: 'About us', to: '/about' },
     { name: 'Why EatKrishna?', to: '/why-eatkrishna' },
