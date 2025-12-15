@@ -67,20 +67,23 @@ const Hero: React.FC = () => {
                   <div className="flex flex-col items-center gap-3">
                   <button
   onClick={() => setShowChooseYourLaddu(true)}
-  className="group relative inline-flex items-center justify-center px-20 py-4 md:px-24 md:py-5 text-2xl md:text-3xl font-extrabold text-white 
-  bg-gradient-to-r from-orange-500 via-orange-600 to-orange-500 rounded-full 
-  shadow-3xl hover:shadow-orange-500/50 transition-all duration-300 transform 
-  hover:scale-110 hover:-translate-y-1 
-  ring-6 ring-orange-400/30 hover:ring-orange-400/50
-  animate-[pulse_2s_ease-in-out_infinite]"
+  className="group relative inline-flex items-center justify-center 
+    px-8 sm:px-12 md:px-20 lg:px-24 py-3 sm:py-4 md:py-5 
+    text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold text-white
+    bg-gradient-to-r from-orange-500 via-orange-600 to-orange-500 rounded-full
+    shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 transform
+    hover:scale-105 hover:-translate-y-0.5
+    ring-4 sm:ring-5 md:ring-6 ring-orange-400/30 hover:ring-orange-400/50
+    animate-[pulse_2s_ease-in-out_infinite]"
 >
-  <Sparkles className="h-8 w-8 md:h-10 md:w-10 mr-4 group-hover:rotate-12 transition-transform duration-300" />
+  <Sparkles className="h-5 sm:h-6 md:h-8 lg:h-10 w-5 sm:w-6 md:w-8 lg:w-10 mr-2 sm:mr-3 md:mr-4 group-hover:rotate-12 transition-transform duration-300" />
   <span className="relative z-10">Choose Your Laddu</span>
 
   {/* Glow layers */}
   <div className="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-xl"></div>
   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-yellow-400/20 via-orange-500/20 to-yellow-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 </button>
+
 
 
 

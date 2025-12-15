@@ -202,11 +202,19 @@ const ProductsSection: React.FC = () => {
         <div className="mb-8 text-center">
         <button
   onClick={() => setShowChooseYourLaddu(true)}
-  className="inline-flex items-center justify-center space-x-4 w-[420px] bg-gradient-to-r from-orange-600 to-orange-500 text-white py-6 rounded-xl font-extrabold text-2xl hover:from-orange-700 hover:to-orange-600 transition-all duration-200 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+  className="inline-flex items-center justify-center space-x-3 sm:space-x-4 
+    w-full sm:w-[320px] md:w-[380px] lg:w-[420px] 
+    bg-gradient-to-r from-orange-600 to-orange-500 
+    text-white py-3 sm:py-4 md:py-5 rounded-xl font-extrabold 
+    text-lg sm:text-xl md:text-2xl lg:text-2xl 
+    hover:from-orange-700 hover:to-orange-600 
+    transition-all duration-200 shadow-xl hover:shadow-2xl 
+    transform hover:-translate-y-1"
 >
-  <Sparkles className="h-7 w-7" />
+  <Sparkles className="h-5 sm:h-6 md:h-7 w-5 sm:w-6 md:w-7" />
   <span>Choose Your Laddu</span>
 </button>
+
 
         </div>
 

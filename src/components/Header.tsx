@@ -25,7 +25,7 @@ const Header: React.FC = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900">EatKrishna</h1>
-              <p className="text-sm text-gray-600">Authentic Millet Foods</p>
+              <p className="text-sm text-gray-600">Authentic Laddus</p>
             </div>
           </div>
 
